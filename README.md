@@ -3,7 +3,7 @@
 Mapa web interactivo del cantón de San Carlos, Alajuela (Costa Rica), que integra información geográfica de múltiples fuentes. El proyecto incluye relieve, hidrografía, división administrativa, infraestructura vial, servicios públicos y puntos de interés.
 
 ## 🌐 Enlace al Mapa
-[PENDIENTE - Se actualizará después de la publicación]
+[https://dylin1311.github.io/mapa-san-carlos/](https://dylin1311.github.io/mapa-san-carlos/)
 
 ## ✨ Características Principales
 * Modelo de Elevación Digital (DEM) con colores hipsométricos
@@ -26,8 +26,7 @@ Mapa web interactivo del cantón de San Carlos, Alajuela (Costa Rica), que integ
 * Datos del curso - Información geográfica complementaria
 
 ## 👥 Autores
-Dylan Cachón - Procesamiento de datos OSM y desarrollo web
-Victoria Sandí - Generación de DEM y diseño cartográfico
+Dylan Chacón y Victoria Sandí
 
 ## 📚 Contexto Académico
 Institución: Tecnológico de Costa Rica
