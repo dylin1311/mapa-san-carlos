@@ -1,0 +1,188 @@
+# ═══════════════════════════════════════════════════════════════
+# .gitignore para Mapa de San Carlos
+# Dylan Cachón & Victoria Sandí - TEC 2025
+# ═══════════════════════════════════════════════════════════════
+
+# ───────────────────────────────────────────────────────────────
+# Sistema Operativo
+# ───────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ───────────────────────────────────────────────────────────────
+# Editores e IDEs
+# ───────────────────────────────────────────────────────────────
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ───────────────────────────────────────────────────────────────
+# Archivos Temporales
+# ───────────────────────────────────────────────────────────────
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.log
+*.cache
+
+# ───────────────────────────────────────────────────────────────
+# GIS y Procesamiento
+# ───────────────────────────────────────────────────────────────
+
+# QGIS
+*.qgs~
+*.qgz~
+
+# TileMill (archivos de proyecto temporales)
+.thumb.png
+*.db-journal
+
+# Archivos temporales de GDAL
+*.aux.xml
+*.tif.ovr
+
+# ───────────────────────────────────────────────────────────────
+# Archivos Grandes (Opcionales - comentar si quieres subirlos)
+# ───────────────────────────────────────────────────────────────
+
+# Si los tiles son muy pesados, descomentar estas líneas:
+# tiles/**/*.png
+# *.mbtiles
+
+# Shapefiles grandes (si no quieres subirlos)
+# *.shp
+# *.shx
+# *.dbf
+# *.prj
+
+# Archivos de elevación grandes
+# *.tif
+# *.tiff
+# dem_*.tif
+# hillshade_*.tif
+
+# ───────────────────────────────────────────────────────────────
+# Python
+# ───────────────────────────────────────────────────────────────
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ───────────────────────────────────────────────────────────────
+# Node.js (si usas alguna herramienta JS)
+# ───────────────────────────────────────────────────────────────
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ───────────────────────────────────────────────────────────────
+# Archivos de Configuración Local
+# ───────────────────────────────────────────────────────────────
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuraciones locales
+config.local.*
+settings.local.*
+
+# ───────────────────────────────────────────────────────────────
+# Git y GitHub
+# ───────────────────────────────────────────────────────────────
+
+# Git LFS (si lo usas)
+.gitattributes
+
+# ───────────────────────────────────────────────────────────────
+# Documentación y Notas Personales
+# ───────────────────────────────────────────────────────────────
+
+# Notas personales que no quieres subir
+NOTAS.txt
+TODO.txt
+PERSONAL.md
+
+# ───────────────────────────────────────────────────────────────
+# IMPORTANTE: Archivos que SÍ quieres subir
+# ───────────────────────────────────────────────────────────────
+
+# Estos archivos NO deben estar ignorados:
+# !index.html
+# !README.md
+# !tilemill_style.mss
+# !tiles/**/*.png (si los quieres subir)
+# !*.md (documentación)
+
+# ═══════════════════════════════════════════════════════════════
+# FIN DEL .gitignore
+# ═══════════════════════════════════════════════════════════════
